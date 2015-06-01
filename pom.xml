@@ -30,12 +30,7 @@
 			<groupId>com.appjangle.servermonitoring</groupId>
 			<artifactId>SimpleServerMonitoring</artifactId>
 			<version>[0.0.1,)</version>
-			<exclusions>
-				<exclusion> 
-					<groupId>sample.ProjectB</groupId>
-					<artifactId>Project-B</artifactId>
-				</exclusion>
-			</exclusions>
+
 		</dependency>
 
 
@@ -68,6 +63,11 @@
 									<mainClass>com.appjangle.servermonitoring.jre.ServerMonitoring</mainClass>
 								</transformer>
 							</transformers>
+							<artifactSet>
+								<excludes>
+									<exclude>com.appjangle.java:appjangle-jre</exclude>
+								</excludes>
+							</artifactSet>
 						</configuration>
 					</execution>
 				</executions>
