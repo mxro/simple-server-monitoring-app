@@ -8,7 +8,6 @@
 	<description>Packages simple-server-monitoring as a stand alone Java App.
 </description>
 	<url>https://github.com/mxro/simple-server-monitoring-app</url>
-
 	<properties>
 		<module.gwtVersion>2.5.1</module.gwtVersion>
 		<module.draftCompile>true</module.draftCompile>
