@@ -71,7 +71,7 @@
 							</transformers>
 							<artifactSet>
 								<excludes>
-									<exclude>com.appjangle.java:appjangle-jre</exclude>
+									<exclude>com.appjangle.java:appjangle-jre:*:jar</exclude>
 								</excludes>
 							</artifactSet>
 						</configuration>
