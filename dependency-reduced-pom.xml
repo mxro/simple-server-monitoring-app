@@ -69,6 +69,11 @@
                   <mainClass>com.appjangle.servermonitoring.jre.ServerMonitoring</mainClass>
                 </transformer>
               </transformers>
+              <artifactSet>
+                <excludes>
+                  <exclude>com.appjangle.java:appjangle-jre</exclude>
+                </excludes>
+              </artifactSet>
             </configuration>
           </execution>
         </executions>
