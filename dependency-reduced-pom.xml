@@ -143,6 +143,14 @@
       <url>http://maven.appjangle.com/appjangle/releases</url>
     </repository>
   </repositories>
+  <dependencies>
+    <dependency>
+      <groupId>com.appjangle.java</groupId>
+      <artifactId>appjangle-jre</artifactId>
+      <version>0.4.7</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
   <properties>
     <module.draftCompile>true</module.draftCompile>
     <module.gwtVersion>2.5.1</module.gwtVersion>

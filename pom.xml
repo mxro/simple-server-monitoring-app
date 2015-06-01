@@ -26,11 +26,17 @@
 
 	<!-- Dependent Modules -->
 	<dependencies>
+	
+	<dependency>
+			<groupId>com.appjangle.java</groupId>
+			<artifactId>appjangle-jre</artifactId>
+			<version>0.4.7</version>
+		</dependency>
+	
 		<dependency>
 			<groupId>com.appjangle.servermonitoring</groupId>
 			<artifactId>SimpleServerMonitoring</artifactId>
 			<version>[0.0.1,)</version>
-
 		</dependency>
 
 
