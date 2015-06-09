@@ -149,6 +149,12 @@
       <artifactId>appjangle-jre</artifactId>
       <version>0.4.8</version>
       <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>appjangle-jre-internal</artifactId>
+          <groupId>com.appjangle.jreinternal</groupId>
+        </exclusion>
+      </exclusions>
     </dependency>
   </dependencies>
   <properties>
