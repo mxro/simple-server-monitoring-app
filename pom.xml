@@ -3,6 +3,7 @@
 	<groupId>com.appjangle.servermonitoring.app</groupId>
 	<artifactId>SimpleServerMonitoringApp</artifactId>
 	<version>0.0.2</version>
+	
 	<description>Packages simple-server-monitoring as a stand alone Java App.
 </description>
 	<url>https://github.com/mxro/simple-server-monitoring-app</url>
